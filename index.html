@@ -1,0 +1,753 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Erika Fiqri Zhain — Teknik Infrastruktur Sipil</title>
+    <meta
+      name="description"
+      content="CV dan portofolio Erika Fiqri Zhain — mahasiswa Teknik Infrastruktur Sipil ITS."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Source+Serif+4:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#home">Lewati ke konten</a>
+
+    <div class="bg" aria-hidden="true">
+      <div class="bg__blob bg__blob--1"></div>
+      <div class="bg__blob bg__blob--2"></div>
+      <div class="bg__grid"></div>
+    </div>
+
+    <header class="header">
+      <nav class="nav container" aria-label="Navigasi utama">
+        <a class="brand" href="#home" aria-label="Kembali ke Beranda">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span class="brand__text">Erika</span>
+        </a>
+
+        <button
+          class="nav__toggle"
+          type="button"
+          aria-controls="navMenu"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Buka menu</span>
+          <span class="nav__toggleBars" aria-hidden="true"></span>
+        </button>
+
+        <div class="nav__menu" id="navMenu">
+          <ul class="nav__links">
+            <li><a class="nav__link is-active" href="#home">Beranda</a></li>
+            <li><a class="nav__link" href="#about">Tentang</a></li>
+            <li><a class="nav__link" href="#experience">Pengalaman</a></li>
+            <li><a class="nav__link" href="#education">Pendidikan</a></li>
+            <li><a class="nav__link" href="#skills">Keahlian</a></li>
+            <li><a class="nav__link" href="#contact">Kontak</a></li>
+          </ul>
+
+          <div class="nav__cta" aria-label="Aksi cepat">
+            <button class="iconBtn" type="button" id="themeToggle" aria-label="Aktifkan mode terang" aria-pressed="false">
+              <i class="ri-sun-line" aria-hidden="true"></i>
+              <span class="sr-only">Tema</span>
+            </button>
+            <a class="btn btn--primary" href="cv.pdf" download>
+              <i class="ri-download-2-line" aria-hidden="true"></i>
+              <span>Unduh CV</span>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section hero" id="home">
+        <div class="container hero__grid">
+          <div class="hero__content" data-reveal>
+            <div class="kicker">
+              <span class="kicker__dot" aria-hidden="true"></span>
+              <span>Terbuka untuk peluang</span>
+            </div>
+
+            <h1 class="hero__title">
+              <span class="hero__name">Erika Fiqri Zhain</span>
+              <span class="hero__headline">Teknik Infrastruktur Sipil</span>
+            </h1>
+
+            <p class="hero__lead">
+              Saya merupakan mahasiswa Teknik Infrastruktur Sipil yang memiliki minat pada hidrologi, hidraulika, dan pengelolaan sumber daya air. Memiliki kemampuan analisis data, berpikir sistematis, serta berkomitmen dalam pengembangan infrastruktur yang berkelanjutan.
+            </p>
+            <ul class="hero__meta hero__meta--inline" aria-label="Info singkat">
+              <li class="meta">
+                <i class="ri-map-pin-2-line" aria-hidden="true"></i>
+                <span>Sidoarjo, Indonesia</span>
+              </li>
+              <li class="meta">
+                <i class="ri-mail-line" aria-hidden="true"></i>
+                <a href="mailto:erikafiqrizha@gmail.com">erikafiqrizha@gmail.com</a>
+              </li>
+            </ul>
+
+            <div class="hero__actions">
+              <a class="btn btn--primary btn--lg" href="#experience">
+                <span>Lihat Pengalaman</span>
+                <i class="ri-arrow-right-line" aria-hidden="true"></i>
+              </a>
+              <a class="btn btn--ghost btn--lg" href="#contact">
+                <i class="ri-chat-1-line" aria-hidden="true"></i>
+                <span>Kontak</span>
+              </a>
+            </div>
+
+            <div class="hero__links" aria-label="Tautan profesional">
+              <a class="heroLink" href="https://www.linkedin.com/in/erika-fiqri/" target="_blank" rel="noopener noreferrer">
+                <i class="ri-linkedin-box-line" aria-hidden="true"></i>
+                <span>LinkedIn</span>
+              </a>
+              <a class="heroLink" href="https://github.com/Bismahendra863/" target="_blank" rel="noopener noreferrer">
+                <i class="ri-github-line" aria-hidden="true"></i>
+                <span>GitHub</span>
+              </a>
+              <a class="heroLink" href="cv.pdf" download>
+                <i class="ri-file-download-line" aria-hidden="true"></i>
+                <span>CV (PDF)</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero__visual" data-reveal>
+            <div class="profileCard">
+              <div class="profileCard__frame">
+                <img class="profileCard__img" src="photo_profile.jpg" alt="Foto profil Erika Fiqri Zhain" loading="lazy" decoding="async" />
+                <div class="profileCard__fallback" aria-hidden="true">
+                  <span class="profileCard__initials">EFZ</span>
+                </div>
+              </div>
+
+              <div class="profileCard__info">
+                <div class="profileCard__top">
+                  <div>
+                    <div class="profileCard__name">Erika Fiqri Zhain</div>
+                    <div class="profileCard__role">Teknik Sipil</div>
+                  </div>
+                </div>
+
+                <div class="profileCard__stats">
+                  <div class="stat">
+                    <div class="stat__num">1</div>
+                    <div class="stat__label">Magang</div>
+                  </div>
+                  <div class="stat">
+                    <div class="stat__num">3</div>
+                    <div class="stat__label">Kegiatan/Organisasi</div>
+                  </div>
+                  <div class="stat">
+                    <div class="stat__num">3</div>
+                    <div class="stat__label">Kompetisi</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container">
+          <div class="sectionGrid">
+            <div class="sectionIntro">
+              <div class="section__head" data-reveal>
+                <div class="section__headMain">
+                  <p class="eyebrow">Profil</p>
+                  <h2 class="h2">Tentang Saya</h2>
+                </div>
+                <p class="muted">
+                  Mahasiswa Teknik Sipil Keairan yang berfokus pada analisis dan perencanaan sistem sumber daya air. Memiliki ketertarikan pada hidrologi, drainase, dan
+                  pengendalian banjir dengan pendekatan kerja yang analitis, terstruktur, dan berbasis data.
+                </p>
+                <p class="muted">
+                  Saya percaya bahwa solusi infrastruktur yang baik tidak hanya efektif secara teknis, tetapi juga berkelanjutan. Karena itu, saya terus mengembangkan
+                  kemampuan melalui pembelajaran, pengalaman organisasi, dan eksplorasi di bidang teknik sipil.
+                </p>
+              </div>
+            </div>
+
+            <div class="sectionBody">
+              <div class="grid2 grid2--uneven">
+                <article class="card" data-reveal>
+                  <div class="card__top">
+                    <h3 class="h3">Sorotan Profil</h3>
+                  </div>
+                  <p class="muted">Fokus pada perencanaan, pengolahan, dan analisis data hidrologi, serta pemodelan dasar dalam bidang sumber daya air.</p>
+                  <div class="chips" aria-label="Sorotan profil">
+                    <span class="chip chip--soft"><i class="ri-building-2-line" aria-hidden="true"></i>Perencanaan</span>
+                    <span class="chip chip--soft"><i class="ri-pencil-ruler-2-line" aria-hidden="true"></i>Analisis Data</span>
+                    <span class="chip chip--soft"><i class="ri-ruler-2-line" aria-hidden="true"></i>Visualisasi Data</span>
+                    <span class="chip chip--soft"><i class="ri-file-list-3-line" aria-hidden="true"></i>RAB/BOQ</span>
+                    <span class="chip chip--soft"><i class="ri-file-text-line" aria-hidden="true"></i>Dokumentasi</span>
+                    <span class="chip"><i class="ri-layout-2-line" aria-hidden="true"></i>AutoCAD</span>
+                    <span class="chip"><i class="ri-cube-line" aria-hidden="true"></i>HEC-RAS</span>
+                    <span class="chip"><i class="ri-table-line" aria-hidden="true"></i>Excel</span>
+                    <span class="chip"><i class="ri-map-2-line" aria-hidden="true"></i>ArcGIS</span>
+                  </div>
+                </article>
+
+                <article class="card" data-reveal>
+                  <div class="card__top">
+                    <h3 class="h3">Data Diri</h3>
+                  </div>
+                  <ul class="hero__meta hero__meta--compact" aria-label="Data diri">
+                    <li class="meta">
+                      <i class="ri-map-pin-2-line" aria-hidden="true"></i>
+                      <span>Sidoarjo</span>
+                    </li>
+                    <li class="meta">
+                      <i class="ri-mail-line" aria-hidden="true"></i>
+                      <a href="mailto:erikafiqrizha@gmail.com">erikafiqrizha@gmail.com</a>
+                    </li>
+                    <li class="meta">
+                      <i class="ri-phone-line" aria-hidden="true"></i>
+                      <a href="tel:+6281559668914">+62 81559668914</a>
+                    </li>
+                    <li class="meta">
+                      <i class="ri-linkedin-box-line" aria-hidden="true"></i>
+                      <a href="https://www.linkedin.com/in/Erika-Fiqri/" target="_blank" rel="noopener noreferrer">linkedin.com/in/erika-fiqri</a>
+                    </li>
+                    <li class="meta">
+                      <i class="ri-github-line" aria-hidden="true"></i>
+                      <a href="https://github.com/Bismahendra863/" target="_blank" rel="noopener noreferrer">github.com/Bismahendra863</a>
+                    </li>
+                  </ul>
+                </article>
+              </div>
+
+              <div class="grid3">
+                <article class="card" data-reveal>
+                  <div class="card__icon" aria-hidden="true">
+                    <i class="ri-focus-3-line"></i>
+                  </div>
+                  <h3 class="h3">Nilai Utama</h3>
+                  <ul class="list">
+                    <li>Analisis data dengan akurat dan berbasis metode ilmiah.</li>
+                    <li>Komunikasi dan koordinasi yang baik antar tim dan pemangku kepentingan.</li>
+                    <li>Ketelitian dalam pengolahan dan penyusunan hasil analisis.</li>
+                  </ul>
+                </article>
+
+                <article class="card" data-reveal>
+                  <div class="card__icon" aria-hidden="true">
+                    <i class="ri-magic-line"></i>
+                  </div>
+                  <h3 class="h3">Keunggulan</h3>
+                  <ul class="list">
+                    <li>Mampu beradaptasi dalam lingkungan baru dan tim yang berbeda.</li>
+                    <li>Aktif mengembangkan diri dan meningkatkan keterampilan.</li>
+                    <li>Terbiasa bekerja secara sistematis dalam menyelesaikan suatu pekerjaan.</li>
+                  </ul>
+                </article>
+
+                <article class="card" data-reveal>
+                  <div class="card__icon" aria-hidden="true">
+                    <i class="ri-heart-2-line"></i>
+                  </div>
+                  <h3 class="h3">Gaya Kerja</h3>
+                  <ul class="list">
+                    <li>Teliti, terstruktur, dan berbasis data dalam setiap pekerjaan.</li>
+                    <li>Berorientasi hasil dan menjaga kualitas sesuai target.</li>
+                    <li>Kolaboratif, komunikatif, dan bertanggung jawab dalam tim.</li>
+                  </ul>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="container">
+          <div class="sectionGrid">
+            <div class="sectionIntro">
+              <div class="section__head" data-reveal>
+                <div class="section__headMain">
+                  <p class="eyebrow">Keahlian</p>
+                  <h2 class="h2">Keahlian yang relevan</h2>
+                </div>
+                <p class="muted">Dikelompokkan menjadi keahlian teknis dan interpersonal agar mudah dipindai.</p>
+              </div>
+            </div>
+
+            <div class="sectionBody">
+              <div class="grid2">
+                <article class="card" data-reveal>
+                  <div class="card__top">
+                    <h3 class="h3">Keahlian Teknis</h3>
+                    <span class="tag">Teknis</span>
+                  </div>
+
+                  <div class="skills" aria-label="Perangkat lunak dan alat">
+                    <div class="skill">
+                      <div class="skill__meta"><span>Microsoft Office (Excel, Word, PowerPoint)</span><span>Mahir</span></div>
+                      <div class="bar"><span style="--level: 90%"></span></div>
+                    </div>
+                    <div class="skill">
+                      <div class="skill__meta"><span>Gis Model (ArcGIS, Google Earth, Global Mapper)</span><span>Menengah</span></div>
+                      <div class="bar"><span style="--level: 80%"></span></div>
+                    </div>
+                    <div class="skill">
+                      <div class="skill__meta"><span>Hydraulic Model (EPANET, HEC-RAS, DELFT-3D)</span><span>Menengah</span></div>
+                      <div class="bar"><span style="--level: 80%"></span></div>
+                    </div>
+                    <div class="skill">
+                      <div class="skill__meta"><span>Drawing (AutoCAD, Revit)</span><span>Menengah</span></div>
+                      <div class="bar"><span style="--level: 70%"></span></div>
+                    </div>
+                  </div>
+
+                  <div class="chips" aria-label="Bidang kerja teknis">
+                    <span class="chip chip--soft"><i class="ri-building-2-line" aria-hidden="true"></i>Analisis</span>
+                    <span class="chip chip--soft"><i class="ri-ruler-2-line" aria-hidden="true"></i>Visualisasi Data</span>
+                    <span class="chip chip--soft"><i class="ri-line-chart-line" aria-hidden="true"></i>Pelaporan</span>
+                  </div>
+                </article>
+
+                <article class="card" data-reveal>
+                  <div class="card__top">
+                    <h3 class="h3">Keahlian Interpersonal</h3>
+                    <span class="tag">Interpersonal</span>
+                  </div>
+
+                  <div class="chips" aria-label="Keahlian interpersonal">
+                    <span class="chip"><i class="ri-team-line" aria-hidden="true"></i>Kerja Tim</span>
+                    <span class="chip"><i class="ri-chat-3-line" aria-hidden="true"></i>Komunikasi</span>
+                    <span class="chip"><i class="ri-user-star-line" aria-hidden="true"></i>Kepemimpinan</span>
+                    <span class="chip"><i class="ri-time-line" aria-hidden="true"></i>Manajemen Waktu</span>
+                    <span class="chip"><i class="ri-lightbulb-line" aria-hidden="true"></i>Adaptasi</span>
+                    <span class="chip"><i class="ri-shield-check-line" aria-hidden="true"></i>Disiplin</span>
+                  </div>
+
+                  <div class="callout">
+                    <span class="callout__icon" aria-hidden="true"><i class="ri-focus-3-line"></i></span>
+                    <div>
+                      <div class="callout__title">Fokus kontribusi</div>
+                      <div class="muted">
+                        Berkontribusi dalam pengolahan dan analisis data hidrologi serta pemodelan sistem sumber daya air. Mengedepankan ketelitian, pendekatan berbasis data,
+                        serta kolaborasi dalam menghasilkan solusi teknik yang efektif dan berkelanjutan.
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="container">
+          <div class="sectionGrid">
+            <div class="sectionIntro">
+              <div class="section__head" data-reveal>
+                <div class="section__headMain">
+                  <p class="eyebrow">Pengalaman</p>
+                  <h2 class="h2">Pengalaman</h2>
+                </div>
+                <p class="muted">Pilih kategori untuk melihat deskripsi detail. Ini membantu tampilan tetap ringkas dan rapi.</p>
+              </div>
+
+              <div class="resumeActions" data-reveal>
+                <a class="btn btn--primary" href="cv.pdf" download>
+                  <i class="ri-download-2-line" aria-hidden="true"></i>
+                  <span>Unduh CV (PDF)</span>
+                </a>
+                <a class="btn btn--ghost" href="#contact">
+                  <i class="ri-chat-1-line" aria-hidden="true"></i>
+                  <span>Kontak</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="sectionBody" data-reveal>
+              <div class="expSwitch" data-exp-switch>
+                <div class="expSwitch__tabs" role="tablist" aria-label="Kategori pengalaman">
+                  <button class="expTab is-active" type="button" role="tab" aria-selected="true" aria-controls="expPanelIntern" id="expTabIntern">
+                    Magang
+                  </button>
+                  <button class="expTab" type="button" role="tab" aria-selected="false" aria-controls="expPanelOrg" id="expTabOrg" tabindex="-1">
+                    Organisasi
+                  </button>
+                  <button class="expTab" type="button" role="tab" aria-selected="false" aria-controls="expPanelEvent" id="expTabEvent" tabindex="-1">
+                    Event
+                  </button>
+                </div>
+
+                <div class="expSwitch__panels">
+                  <section class="expPanel is-active" role="tabpanel" id="expPanelIntern" aria-labelledby="expTabIntern">
+                    <div class="expPanel__head">
+                      <h3 class="h3">Magang</h3>
+                      <span class="tag">Profesional</span>
+                    </div>
+                    <div class="expPanel__body">
+                      <div class="expItem">
+                        <div class="expItem__top">
+                          <div>
+                            <h4 class="h3">PT. PP (Persero)</h4>
+                            <div class="muted">Magang di Proyek Pengendalian Banjir Sistem Tenggang–Sringin Tahap III</div>
+                          </div>
+                          <span class="pill">2025</span>
+                        </div>
+                        <ul class="list list--tight">
+                          <li>Membantu tim Quality Control (QC) dalam memeriksa kualitas pekerjaan.</li>
+                          <li>Membantu pengukuran koordinat aktual dan elevasi top elevasi CCSP.</li>
+                          <li>Membantu marking saluran drainase.</li>
+                          <li>Membantu perhitungan cut &amp; fill saluran.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </section>
+
+                  <section class="expPanel" role="tabpanel" id="expPanelOrg" aria-labelledby="expTabOrg" hidden>
+                    <div class="expPanel__head">
+                      <h3 class="h3">Organisasi</h3>
+                      <span class="tag">Kepemimpinan</span>
+                    </div>
+                    <div class="expPanel__body">
+                      <div class="expList">
+                        <div class="expItem">
+                          <div class="expItem__top">
+                            <div>
+                              <h4 class="h3">BLM Fakultas Vokasi ITS</h4>
+                              <div class="muted">Anggota Komisi 1</div>
+                            </div>
+                            <span class="pill">2024–2025</span>
+                          </div>
+                          <ul class="list list--tight">
+                            <li>Membuat Garis Besar Haluan Kerja.</li>
+                            <li>Mengumpulkan aspirasi mahasiswa fakultas.</li>
+                            <li>Melakukan pengawasan terhadap Badan Eksekutif Mahasiswa.</li>
+                          </ul>
+                        </div>
+
+                        <div class="expItem">
+                          <div class="expItem__top">
+                            <div>
+                              <h4 class="h3">Paskibra SMAN 1 Tarik</h4>
+                              <div class="muted">Sekretaris 2 Korps Paskibra</div>
+                            </div>
+                            <span class="pill">2020–2021</span>
+                          </div>
+                          <ul class="list list--tight">
+                            <li>Mengelola surat masuk/keluar dan pengarsipan dokumen secara sistematis.</li>
+                            <li>Menyusun notulen rapat dan mendokumentasikan keputusan untuk koordinasi yang efektif.</li>
+                            <li>Mendukung kelancaran komunikasi internal maupun eksternal.</li>
+                          </ul>
+                        </div>
+
+                        <div class="expItem">
+                          <div class="expItem__top">
+                            <div>
+                              <h4 class="h3">Atletik SMAN 1 Tarik</h4>
+                              <div class="muted">Anggota</div>
+                            </div>
+                            <span class="pill">2019–2020</span>
+                          </div>
+                          <ul class="list list--tight">
+                            <li>Menjalani latihan rutin dan menjaga kondisi fisik untuk meningkatkan performa.</li>
+                            <li>Mengikuti kompetisi/lomba dan mewakili sekolah dengan menjunjung sportivitas.</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+                  <section class="expPanel" role="tabpanel" id="expPanelEvent" aria-labelledby="expTabEvent" hidden>
+                    <div class="expPanel__head">
+                      <h3 class="h3">Event</h3>
+                      <span class="tag">Kepanitiaan</span>
+                    </div>
+                    <div class="expPanel__body">
+                      <div class="expList">
+                        <div class="expItem">
+                          <div class="expItem__top">
+                            <div>
+                              <h4 class="h3">D'Village 13th <span class="expItem__loc">- Surabaya</span></h4>
+                              <div class="muted expItem__role"><em>Koordinator Subdivisi Relation</em></div>
+                            </div>
+                            <span class="expItem__date">Mar 2024 - Nov 2024</span>
+                          </div>
+                          <p class="muted expItem__desc">
+                            Event perlombaan tahunan yang diadakan oleh Departemen Teknik Infrastruktur Sipil ITS, yang bergerak pada bidang konstruksi jembatan,
+                            rancangan anggaran biaya pembangunan, dan karya tulis ilmiah mengenai keairan.
+                          </p>
+                          <ul class="list list--tight">
+                            <li>Membuat strategi pengenalan event kepada khalayak umum</li>
+                            <li>Membantu divisi competition untuk mendapatkan peserta sesuai dengan target</li>
+                            <li>Menjadi Master of Ceremony dalam tiap sub-event</li>
+                            <li>Mengoordinir serta memastikan tim relation mampu menyebarkan informasi dengan baik</li>
+                          </ul>
+                        </div>
+
+                        <div class="expItem">
+                          <div class="expItem__top">
+                            <div>
+                              <h4 class="h3">D'Village 12th <span class="expItem__loc">- Surabaya</span></h4>
+                              <div class="muted expItem__role"><em>Staff Public Relation</em></div>
+                            </div>
+                            <span class="expItem__date">Mar 2023 - Nov 2023</span>
+                          </div>
+                          <p class="muted expItem__desc">
+                            Event perlombaan tahunan yang diadakan oleh Departemen Teknik Infrastruktur Sipil ITS, yang bergerak pada bidang konstruksi jembatan,
+                            rancangan anggaran biaya pembangunan, dan karya tulis ilmiah mengenai keairan.
+                          </p>
+                          <ul class="list list--tight">
+                            <li>Membantu divisi competition untuk mendapatkan peserta sesuai target</li>
+                            <li>Memastikan informasi event tersampaikan dengan baik</li>
+                            <li>Menjadi Master of Ceremony dalam event</li>
+                          </ul>
+                        </div>
+
+                        <div class="expItem">
+                          <div class="expItem__top">
+                            <div>
+                              <h4 class="h3">Ini Lho ITS Forda Sidoarjo <span class="expItem__loc">- Surabaya</span></h4>
+                              <div class="muted expItem__role"><em>Staff Public Relation</em></div>
+                            </div>
+                            <span class="expItem__date">Nov 2022 - Feb 2023</span>
+                          </div>
+                          <p class="muted expItem__desc">
+                            Ini Lho ITS Forda Sidoarjo merupakan event kerja sama forum daerah dengan Ini Lho ITS pusat yang bertujuan untuk memperkenalkan dan memberikan
+                            informasi kepada siswa/siswi kelas 12 mengenai ITS, seperti contohnya jalur masuk di ITS, biaya hidup di sekitar ITS, beasiswa, prestasi ITS,
+                            dan lain sebagainya.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </div>
+                </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="education">
+        <div class="container">
+          <div class="sectionGrid">
+            <div class="sectionIntro">
+              <div class="section__head" data-reveal>
+                <div class="section__headMain">
+                  <p class="eyebrow">Pendidikan</p>
+                  <h2 class="h2">Pendidikan & Sertifikasi</h2>
+                </div>
+                <p class="muted">Ringkasan pendidikan formal dan sertifikasi/pelatihan yang relevan.</p>
+              </div>
+            </div>
+
+            <div class="sectionBody">
+              <div class="grid2" data-reveal>
+                <article class="card">
+                  <div class="card__top">
+                    <h3 class="h3">Pendidikan</h3>
+                    <span class="tag">Pendidikan</span>
+                  </div>
+                  <div class="stack">
+                    <div class="row">
+                      <div class="row__main">
+                        <div class="row__title">Institut Teknologi Sepuluh Nopember (ITS)</div>
+                        <div class="muted">Teknik Infrastruktur Sipil</div>
+                      </div>
+                      <span class="pill">2022–Sekarang</span>
+                    </div>
+                    <div class="row">
+                      <div class="row__main">
+                        <div class="row__title">SMA Negeri 1 Tarik</div>
+                        <div class="muted">Matematika dan Ilmu Pengetahuan Alam (MIPA)</div>
+                      </div>
+                      <span class="pill">2019–2022</span>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="card">
+                  <div class="card__top">
+                    <h3 class="h3">Sertifikasi / Pelatihan</h3>
+                    <span class="tag">Sertifikasi</span>
+                  </div>
+                  <div class="stack">
+                    <div class="row">
+                      <div class="row__main">
+                        <div class="row__title">Dasar-Dasar Dukungan Teknis</div>
+                        <div class="muted">Coursera • ID kredensial 18QYVA9DGFCP</div>
+                      </div>
+                      <span class="pill">2023</span>
+                    </div>
+                    <div class="row">
+                      <div class="row__main">
+                        <div class="row__title">Seluk Beluk Jaringan Komputer</div>
+                        <div class="muted">Coursera • ID kredensial N9L6CVSY4UPC</div>
+                      </div>
+                      <span class="pill">2023</span>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="sectionGrid">
+            <div class="sectionIntro">
+              <div class="section__head" data-reveal>
+                <div class="section__headMain">
+                  <p class="eyebrow">Kontak</p>
+                  <h2 class="h2">Hubungi Saya</h2>
+                </div>
+                <p class="muted">Isi formulir untuk mengirim pesan ke email saya, atau hubungi melalui kontak yang tersedia.</p>
+              </div>
+            </div>
+
+            <div class="sectionBody">
+              <div class="grid2 grid2--wideRight">
+                <article class="card" data-reveal>
+                  <h3 class="h3">Kontak</h3>
+                  <div class="stack">
+                    <a class="contactRow" href="mailto:erikafiqrizha@gmail.com">
+                      <span class="contactRow__icon" aria-hidden="true"><i class="ri-mail-line"></i></span>
+                      <span class="contactRow__main">
+                        <span class="contactRow__label">Email</span>
+                        <span class="contactRow__value">erikafiqrizha@gmail.com</span>
+                      </span>
+                      <span class="contactRow__hint">Kirim</span>
+                    </a>
+                    <a class="contactRow" href="tel:+6281559668914">
+                      <span class="contactRow__icon" aria-hidden="true"><i class="ri-phone-line"></i></span>
+                      <span class="contactRow__main">
+                        <span class="contactRow__label">Telepon</span>
+                        <span class="contactRow__value">+62 81559668914</span>
+                      </span>
+                      <span class="contactRow__hint">Telepon</span>
+                    </a>
+                    <a class="contactRow" href="https://www.linkedin.com/in/erika-fiqri/" target="_blank" rel="noopener noreferrer">
+                      <span class="contactRow__icon" aria-hidden="true"><i class="ri-linkedin-box-line"></i></span>
+                      <span class="contactRow__main">
+                        <span class="contactRow__label">LinkedIn</span>
+                        <span class="contactRow__value">Erika Fiqri</span>
+                      </span>
+                      <span class="contactRow__hint">Buka</span>
+                    </a>
+                    <a class="contactRow" href="https://github.com/Bismahendra863/" target="_blank" rel="noopener noreferrer">
+                      <span class="contactRow__icon" aria-hidden="true"><i class="ri-github-line"></i></span>
+                      <span class="contactRow__main">
+                        <span class="contactRow__label">GitHub</span>
+                        <span class="contactRow__value">github.com/Bismahendra863</span>
+                      </span>
+                      <span class="contactRow__hint">Buka</span>
+                    </a>
+                  </div>
+                </article>
+
+                <article class="card" data-reveal>
+                  <h3 class="h3">Form Kontak</h3>
+                  <form class="form" id="contactForm" action="https://formspree.io/f/xgoraory" method="POST" novalidate>
+                    <input type="hidden" name="_subject" value="Pesan dari website CV" />
+                    <div class="form__grid">
+                      <label class="field">
+                        <span class="field__label">Nama</span>
+                        <input class="field__input" type="text" name="name" placeholder="Nama lengkap" required />
+                      </label>
+                      <label class="field">
+                        <span class="field__label">Email</span>
+                        <input
+                          class="field__input"
+                          type="email"
+                          name="email"
+                          placeholder="Alamat email"
+                          autocomplete="email"
+                          required
+                        />
+                      </label>
+                    </div>
+
+                    <label class="field">
+                      <span class="field__label">Subjek</span>
+                      <input
+                        class="field__input"
+                        type="text"
+                        name="subject"
+                        placeholder="Kolaborasi / Lowongan / Pertanyaan"
+                        required
+                      />
+                    </label>
+
+                    <label class="field">
+                      <span class="field__label">Pesan</span>
+                      <textarea
+                        class="field__input field__textarea"
+                        name="message"
+                        placeholder="Tulis pesan Anda di sini..."
+                        rows="6"
+                        required
+                      ></textarea>
+                    </label>
+
+                    <div class="form__actions">
+                      <button class="btn btn--primary btn--lg" type="submit">
+                        <i class="ri-send-plane-2-line" aria-hidden="true"></i>
+                        <span>Kirim</span>
+                      </button>
+                      <p class="muted form__hint" id="formHint" role="status" aria-live="polite"></p>
+                    </div>
+                  </form>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__grid">
+        <div class="footer__brand">
+          <div class="brand brand--footer">
+            <span class="brand__mark" aria-hidden="true"></span>
+            <span class="brand__text">Erika Fiqri Zhain</span>
+          </div>
+          <div class="muted">Teknik Infrastruktur Sipil • Sidoarjo</div>
+        </div>
+
+        <div class="footer__links" aria-label="Navigasi footer">
+          <a href="#about">Tentang</a>
+          <a href="#experience">Pengalaman</a>
+          <a href="#education">Pendidikan</a>
+          <a href="#skills">Keahlian</a>
+          <a href="#contact">Kontak</a>
+        </div>
+
+        <div class="footer__copy muted">
+          <span>© <span id="year"></span> Erika Fiqri Zhain. Hak cipta dilindungi.</span>
+        </div>
+      </div>
+    </footer>
+
+    <button class="toTop" type="button" id="toTop" aria-label="Kembali ke atas">
+      <i class="ri-arrow-up-line" aria-hidden="true"></i>
+    </button>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

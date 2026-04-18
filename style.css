@@ -2045,9 +2045,30 @@ body.is-loaded .hero__visual[data-reveal] {
     justify-self: center;
   }
 
+  .hero__content {
+    text-align: center;
+  }
+
+  .hero__lead {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .hero__meta--inline,
   .hero__links,
   .hero__actions {
+    justify-content: center;
+  }
+
+  .section__head {
+    text-align: center;
+  }
+
+  .section__headMain {
+    justify-items: center;
+  }
+
+  .eyebrow {
     justify-content: center;
   }
 
@@ -2105,6 +2126,22 @@ body.is-loaded .hero__visual[data-reveal] {
     height: 320px;
   }
 
+}
+
+@media (max-width: 520px) {
+  .hero__actions {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero__actions .btn--lg {
+    width: 100%;
+  }
+
+  .expSwitch__tabs {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 780px) {

@@ -968,7 +968,7 @@ html[data-theme="light"] .pill {
 
 .profileCard__stats {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
   gap: 10px;
   margin-top: 12px;
 }
@@ -989,6 +989,11 @@ html[data-theme="light"] .stat {
 .stat__num {
   font-weight: 800;
   letter-spacing: -0.03em;
+  font-size: 13px;
+  line-height: 1.25;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .stat__label {

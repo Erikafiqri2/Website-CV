@@ -2115,7 +2115,14 @@ body.is-loaded .hero__visual[data-reveal] {
   }
 
   .grid2 > * {
-    grid-column: span 12;
+    grid-column: 1 / -1;
+  }
+
+  .grid2--uneven > :first-child,
+  .grid2--uneven > :nth-child(2),
+  .grid2--wideRight > :first-child,
+  .grid2--wideRight > :nth-child(2) {
+    grid-column: 1 / -1;
   }
 
   .grid3 > * {

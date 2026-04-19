@@ -52,9 +52,10 @@
           <ul class="nav__links">
             <li><a class="nav__link is-active" href="#home">Beranda</a></li>
             <li><a class="nav__link" href="#about">Tentang</a></li>
+            <li><a class="nav__link" href="#skills">Keahlian</a></li>
+            <li><a class="nav__link" href="#projects">Projects</a></li>
             <li><a class="nav__link" href="#experience">Pengalaman</a></li>
             <li><a class="nav__link" href="#education">Pendidikan</a></li>
-            <li><a class="nav__link" href="#skills">Keahlian</a></li>
             <li><a class="nav__link" href="#contact">Kontak</a></li>
           </ul>
 
@@ -65,7 +66,7 @@
             </button>
             <a class="btn btn--primary" href="cv.pdf" download>
               <i class="ri-download-2-line" aria-hidden="true"></i>
-              <span>Unduh CV</span>
+              <span>CV Saya</span>
             </a>
           </div>
         </div>
@@ -76,9 +77,22 @@
       <section class="section hero" id="home">
         <div class="container hero__grid">
           <div class="hero__content" data-reveal>
-            <div class="kicker">
-              <span class="kicker__dot" aria-hidden="true"></span>
-              <span>Terbuka untuk peluang</span>
+            <div class="hero__topRow">
+              <div class="kicker">
+                <span class="kicker__dot" aria-hidden="true"></span>
+                <span>Terbuka untuk peluang</span>
+              </div>
+              <div class="hero__iconLinks" aria-label="Tautan cepat">
+                <a class="iconBtn" href="https://www.linkedin.com/in/erika-fiqri/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                  <i class="ri-linkedin-box-line" aria-hidden="true"></i>
+                </a>
+                <a class="iconBtn" href="https://line.me/ti/p/zKN3tmlvai" target="_blank" rel="noopener noreferrer" aria-label="LINE">
+                  <i class="ri-chat-3-line" aria-hidden="true"></i>
+                </a>
+                <a class="iconBtn" href="cv.pdf" download aria-label="Unduh CV (PDF)">
+                  <i class="ri-file-download-line" aria-hidden="true"></i>
+                </a>
+              </div>
             </div>
 
             <h1 class="hero__title">
@@ -98,6 +112,10 @@
                 <i class="ri-mail-line" aria-hidden="true"></i>
                 <a href="mailto:erikafiqrizha@gmail.com">erikafiqrizha@gmail.com</a>
               </li>
+              <li class="meta">
+                <i class="ri-phone-line" aria-hidden="true"></i>
+                <a href="tel:+6281559668914">+62 81559668914</a>
+              </li>
             </ul>
 
             <div class="hero__actions">
@@ -110,27 +128,12 @@
                 <span>Kontak</span>
               </a>
             </div>
-
-            <div class="hero__links" aria-label="Tautan profesional">
-              <a class="heroLink" href="https://www.linkedin.com/in/erika-fiqri/" target="_blank" rel="noopener noreferrer">
-                <i class="ri-linkedin-box-line" aria-hidden="true"></i>
-                <span>LinkedIn</span>
-              </a>
-              <a class="heroLink" href="https://github.com/Bismahendra863/" target="_blank" rel="noopener noreferrer">
-                <i class="ri-github-line" aria-hidden="true"></i>
-                <span>GitHub</span>
-              </a>
-              <a class="heroLink" href="cv.pdf" download>
-                <i class="ri-file-download-line" aria-hidden="true"></i>
-                <span>CV (PDF)</span>
-              </a>
-            </div>
           </div>
 
           <div class="hero__visual" data-reveal>
             <div class="profileCard">
               <div class="profileCard__frame">
-                <img class="profileCard__img" src="photo_profile.jpg" alt="Foto profil Erika Fiqri Zhain" loading="lazy" decoding="async" />
+                <img class="profileCard__img" src="photo_profile.jpg" alt="Foto profil Erika Fiqri Zhain" loading="eager" fetchpriority="high" decoding="async" />
                 <div class="profileCard__fallback" aria-hidden="true">
                   <span class="profileCard__initials">EFZ</span>
                 </div>
@@ -140,7 +143,7 @@
                 <div class="profileCard__top">
                   <div>
                     <div class="profileCard__name">Erika Fiqri Zhain</div>
-                    <div class="profileCard__role">Teknik Sipil</div>
+                    <div class="profileCard__role">Teknik Infrastruktur Sipil</div>
                   </div>
                 </div>
 
@@ -219,11 +222,11 @@
                     </li>
                     <li class="meta">
                       <i class="ri-linkedin-box-line" aria-hidden="true"></i>
-                      <a href="https://www.linkedin.com/in/Erika-Fiqri/" target="_blank" rel="noopener noreferrer">linkedin.com/in/erika-fiqri</a>
+                      <a href="https://www.linkedin.com/in/erika-fiqri-416811275" target="_blank" rel="noopener noreferrer">erika-fiqri</a>
                     </li>
                     <li class="meta">
-                      <i class="ri-github-line" aria-hidden="true"></i>
-                      <a href="https://github.com/Erikafiqri2/" target="_blank" rel="noopener noreferrer">github.com/Erikafiqri2</a>
+                      <i class="ri-chat-3-line" aria-hidden="true"></i>
+                      <a href="https://line.me/ti/p/zKN3tmlvai" target="_blank" rel="noopener noreferrer">erikafiqri</a>
                     </li>
                   </ul>
                 </article>
@@ -350,6 +353,81 @@
         </div>
       </section>
 
+      <section class="section" id="projects">
+        <div class="container">
+          <div class="sectionGrid">
+            <div class="sectionIntro">
+              <div class="section__head" data-reveal>
+                <div class="section__headMain">
+                  <p class="eyebrow">Projects</p>
+                  <h2 class="h2">Portofolio</h2>
+                </div>
+                <p class="muted">Ringkasan 2 project dengan fokus pada tujuan, metode, hasil, dan kontribusi spesifik.</p>
+              </div>
+            </div>
+
+            <div class="sectionBody">
+              <div class="grid2" data-reveal>
+                <article class="card card--project">
+                  <figure class="projectMedia projectMedia--diagram">
+                    <img
+                      class="projectMedia__img"
+                      src="project-water-distribution.png"
+                      alt="Skema jaringan distribusi air bersih"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </figure>
+                  <div class="card__top">
+                    <h3 class="h3">Jaringan Distribusi Air Bersih</h3>
+                    <span class="tag">Air Bersih</span>
+                  </div>
+                  <p class="muted">Perancangan dan evaluasi kinerja jaringan distribusi untuk memastikan layanan air bersih memenuhi kebutuhan dan batasan teknis.</p>
+                  <div class="chips chips--spacious" aria-label="Tools yang digunakan">
+                    <span class="chip chip--soft"><i class="ri-table-line" aria-hidden="true"></i>Excel</span>
+                    <span class="chip chip--soft"><i class="ri-function-line" aria-hidden="true"></i>EPANET</span>
+                    <span class="chip chip--soft"><i class="ri-map-2-line" aria-hidden="true"></i>ArcGIS</span>
+                  </div>
+                  <ul class="list list--tight">
+                    <li><strong>Tujuan:</strong> menyusun dan mengevaluasi rancangan jaringan distribusi untuk memenuhi kebutuhan dan standar layanan (tekanan/keandalan).</li>
+                    <li><strong>Metode:</strong> pemodelan jaringan, uji beberapa skenario (diameter/konfigurasi), serta validasi kinerja berdasarkan output simulasi.</li>
+                    <li><strong>Output:</strong> ringkasan kinerja jaringan (tekanan/kehilangan energi) dan rekomendasi alternatif desain yang paling layak.</li>
+                    <li><strong>Kontribusi saya:</strong> menyiapkan input model (node–pipa, demand), menjalankan simulasi, memeriksa konsistensi hasil, dan menyusun ringkasan output untuk pelaporan.</li>
+                  </ul>
+                </article>
+
+                <article class="card card--project">
+                  <figure class="projectMedia projectMedia--diagram">
+                    <img
+                      class="projectMedia__img"
+                      src="project-coastal-structure.png"
+                      alt="Hasil pemodelan struktur pantai (DELFT-3D)"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </figure>
+                  <div class="card__top">
+                    <h3 class="h3">Rekayasa Bangunan Pantai</h3>
+                    <span class="tag">Pantai</span>
+                  </div>
+                  <p class="muted">Kajian alternatif bangunan pantai untuk mengurangi abrasi dan meningkatkan stabilitas garis pantai berbasis perhitungan teknis.</p>
+                  <div class="chips chips--spacious" aria-label="Tools yang digunakan">
+                    <span class="chip chip--soft"><i class="ri-table-line" aria-hidden="true"></i>Excel</span>
+                    <span class="chip chip--soft"><i class="ri-ruler-2-line" aria-hidden="true"></i>DELFT-3D</span>
+                  </div>
+                  <ul class="list list--tight">
+                    <li><strong>Tujuan:</strong> merancang konsep perlindungan pantai untuk mengurangi dampak gelombang/abrasi dan meningkatkan stabilitas garis pantai.</li>
+                    <li><strong>Metode:</strong> perhitungan hidrolika/parameter gelombang, evaluasi alternatif (mis. revetment/breakwater), dan pembandingan berdasarkan kriteria desain.</li>
+                    <li><strong>Output:</strong> rekomendasi alternatif desain beserta ringkasan parameter perencanaan dan hasil perhitungan utama untuk mendukung keputusan.</li>
+                    <li><strong>Kontribusi saya:</strong> mengolah data input, melakukan perhitungan desain, serta membuat permodelan hasil analisis.</li>
+                  </ul>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="section" id="experience">
         <div class="container">
           <div class="sectionGrid">
@@ -398,7 +476,7 @@
                       <div class="expItem">
                         <div class="expItem__top">
                           <div>
-                            <h4 class="h3">PT. PP (Persero)</h4>
+                            <h4 class="h3">PT. PP - APTA - ADP, KSO</h4>
                             <div class="muted">Magang di Proyek Pengendalian Banjir Sistem Tenggang–Sringin Tahap III</div>
                           </div>
                           <span class="pill">2025</span>
@@ -409,6 +487,12 @@
                           <li>Membantu marking saluran drainase.</li>
                           <li>Membantu perhitungan cut &amp; fill saluran.</li>
                         </ul>
+                        <div class="expItem__actions" aria-label="Lampiran magang">
+                          <a class="btn btn--soft btn--sm" href="sertifikat-magang-ptpp.pdf" target="_blank" rel="noopener noreferrer">
+                            <i class="ri-award-line" aria-hidden="true"></i>
+                            <span>Sertifikat</span>
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </section>
@@ -492,6 +576,12 @@
                             <li>Menjadi Master of Ceremony dalam tiap sub-event</li>
                             <li>Mengoordinir serta memastikan tim relation mampu menyebarkan informasi dengan baik</li>
                           </ul>
+                          <div class="expItem__actions" aria-label="Lampiran event">
+                            <a class="btn btn--soft btn--sm" href="sertifikat-event-dvillage-13.pdf" target="_blank" rel="noopener noreferrer">
+                              <i class="ri-award-line" aria-hidden="true"></i>
+                              <span>Sertifikat</span>
+                            </a>
+                          </div>
                         </div>
 
                         <div class="expItem">
@@ -511,6 +601,12 @@
                             <li>Memastikan informasi event tersampaikan dengan baik</li>
                             <li>Menjadi Master of Ceremony dalam event</li>
                           </ul>
+                          <div class="expItem__actions" aria-label="Lampiran event">
+                            <a class="btn btn--soft btn--sm" href="sertifikat-event-dvillage-12.pdf" target="_blank" rel="noopener noreferrer">
+                              <i class="ri-award-line" aria-hidden="true"></i>
+                              <span>Sertifikat</span>
+                            </a>
+                          </div>
                         </div>
 
                         <div class="expItem">
@@ -526,6 +622,12 @@
                             informasi kepada siswa/siswi kelas 12 mengenai ITS, seperti contohnya jalur masuk di ITS, biaya hidup di sekitar ITS, beasiswa, prestasi ITS,
                             dan lain sebagainya.
                           </p>
+                          <div class="expItem__actions" aria-label="Lampiran event">
+                            <a class="btn btn--soft btn--sm" href="sertifikat-event-inilho-its.pdf" target="_blank" rel="noopener noreferrer">
+                              <i class="ri-award-line" aria-hidden="true"></i>
+                              <span>Sertifikat</span>
+                            </a>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -584,16 +686,28 @@
                     <div class="row">
                       <div class="row__main">
                         <div class="row__title">Dasar-Dasar Dukungan Teknis</div>
-                        <div class="muted">Coursera • ID kredensial 18QYVA9DGFCP</div>
+                        <div class="muted">Coursera • ID kredensial T8QYVA9DGFCP</div>
                       </div>
-                      <span class="pill">2023</span>
+                      <div class="row__aside" aria-label="Lampiran sertifikasi">
+                        <span class="pill">2023</span>
+                        <a class="btn btn--soft btn--sm" href="sertifikat-18QYVA9DGFCP.pdf" target="_blank" rel="noopener noreferrer">
+                          <i class="ri-award-line" aria-hidden="true"></i>
+                          <span>Sertifikat</span>
+                        </a>
+                      </div>
                     </div>
                     <div class="row">
                       <div class="row__main">
                         <div class="row__title">Seluk Beluk Jaringan Komputer</div>
                         <div class="muted">Coursera • ID kredensial N9L6CVSY4UPC</div>
                       </div>
-                      <span class="pill">2023</span>
+                      <div class="row__aside" aria-label="Lampiran sertifikasi">
+                        <span class="pill">2023</span>
+                        <a class="btn btn--soft btn--sm" href="sertifikat-N9L6CVSY4UPC.pdf" target="_blank" rel="noopener noreferrer">
+                          <i class="ri-award-line" aria-hidden="true"></i>
+                          <span>Sertifikat</span>
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </article>
@@ -637,7 +751,7 @@
                       </span>
                       <span class="contactRow__hint">Telepon</span>
                     </a>
-                    <a class="contactRow" href="https://www.linkedin.com/in/erika-fiqri/" target="_blank" rel="noopener noreferrer">
+                    <a class="contactRow" href="https://www.linkedin.com/in/erika-fiqri-416811275" target="_blank" rel="noopener noreferrer">
                       <span class="contactRow__icon" aria-hidden="true"><i class="ri-linkedin-box-line"></i></span>
                       <span class="contactRow__main">
                         <span class="contactRow__label">LinkedIn</span>
@@ -645,11 +759,11 @@
                       </span>
                       <span class="contactRow__hint">Buka</span>
                     </a>
-                    <a class="contactRow" href="https://github.com/Bismahendra863/" target="_blank" rel="noopener noreferrer">
-                      <span class="contactRow__icon" aria-hidden="true"><i class="ri-github-line"></i></span>
+                    <a class="contactRow" href="https://line.me/ti/p/zKN3tmlvai" target="_blank" rel="noopener noreferrer">
+                      <span class="contactRow__icon" aria-hidden="true"><i class="ri-chat-3-line"></i></span>
                       <span class="contactRow__main">
-                        <span class="contactRow__label">GitHub</span>
-                        <span class="contactRow__value">github.com/Erikafiqri2</span>
+                        <span class="contactRow__label">LINE</span>
+                        <span class="contactRow__value">erikafiqri</span>
                       </span>
                       <span class="contactRow__hint">Buka</span>
                     </a>
@@ -727,10 +841,12 @@
         </div>
 
         <div class="footer__links" aria-label="Navigasi footer">
+          <a href="#home">Beranda</a>
           <a href="#about">Tentang</a>
+          <a href="#skills">Keahlian</a>
+          <a href="#projects">Projects</a>
           <a href="#experience">Pengalaman</a>
           <a href="#education">Pendidikan</a>
-          <a href="#skills">Keahlian</a>
           <a href="#contact">Kontak</a>
         </div>
 

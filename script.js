@@ -47,10 +47,7 @@ function initThemeToggle() {
     } catch (e) {}
 
     if (stored === "light" || stored === "dark") return stored;
-
-    var prefersLight = false;
-    if (window.matchMedia) prefersLight = window.matchMedia("(prefers-color-scheme: light)").matches;
-    return prefersLight ? "light" : "dark";
+    return "dark";
   }
 
   function applyTheme(theme) {
